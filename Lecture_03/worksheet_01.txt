@@ -1,0 +1,108 @@
+---------------------------
+Question: 1
+
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print a triangle made out of n rows with n asterisk characters in the final row and one in the first row
+
+e.g:
+n = 5
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+---------------------------
+Question: 2
+
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print the same triangle as question 2, except use integers representing the column index as characters.
+
+e.g:
+n = 5
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+---------------------------
+Question: 3
+
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print the same triangle as question 2, except use integers representing the number of characters.
+
+e.g:
+n = 5
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+Extra: Think about how to format this so that the shape remains triangular
+
+e.g:
+
+ 1
+ 2  3
+ 4  5  6
+ 7  8  9 10
+11 12 13 14 15
+
+---------------------------
+Question: 4
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print a triangle made out of n rows with n asterisk characters in the first row and one in the last row
+
+e.g:
+n = 5
+
+* * * * *
+* * * *
+* * *
+* *
+*
+
+---------------------------
+Question: 5
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print the same triangle as question 4, except use integers representing the column index as characters.
+
+e.g:
+n = 5
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+---------------------------
+Question: 6
+Create a program that prompts the user for a positive int n (assume that the user input is always correct).
+Print the same triangle as question 2, except use integers representing the number of characters.
+
+e.g:
+n = 5
+
+1 2 3 4 5
+6 7 8 9
+10 11 12
+13 14
+15
+
+Extra: Think about how to format this so that the shape remains triangular
+
+e.g:
+
+1  2  3  4  5
+6  7  8  9
+10 11 12
+13 14
+15
+
+---------------------------
