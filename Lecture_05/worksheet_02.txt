@@ -1,0 +1,206 @@
+---------------------------------------------------------------------------------------------------------
+
+Question: 1
+Write a program which will prompt the user for 4 integers, i, j, m, n
+The program should find all such numbers which are divisible by 'i' but are not a multiple of 'j',
+between 'm' and 'n' (both included).
+The numbers obtained should be printed in a comma-separated sequence on a single line.
+input: i: 2 j: 3 m: 1 n: 7
+2, 4
+---------------------------------------------------------------------------------------------------------
+
+Question: 2
+Write a program which prompts the user for a single integer n. Calculate the square of each number between 1 and n.
+Store the results in a dictionary with the number as the key and the square as the value.
+Output the complete dictionary
+input n: 5
+output:
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+---------------------------------------------------------------------------------------------------------
+
+Question: 3
+Write a program which prompts the user to enter a string.
+Calculate the number of characters and digits in the string and output the results.
+input: 'these are characters! abcd and these are integers! 1 2 3 4'
+output:
+characters: 41
+digits: 4
+---------------------------------------------------------------------------------------------------------
+
+Question: 4
+Write a program which prompts the user for two integers i, j. Calculate all prime numbers between the two integers.
+input: i: 10 j: 20
+output: 11, 13, 17, 19
+---------------------------------------------------------------------------------------------------------
+
+Shapes
+---------------------------------------------------------------------------------------------------------
+1D
+Write a program which reproduces the following patterns for any integer n
+---------------------------------------------------------------------------------------------------------
+
+Question: 5
+input: 3
+output:
+* * *
+--------
+input: 5
+output:
+* * * * *
+-----------------------------
+
+Question: 6
+input: 3
+output:
+0 1 2
+--------
+input: 5
+output:
+0 1 2 3 4
+-----------------------------
+
+Question: 7
+input: 3
+output:
+x o x
+--------
+input: 5
+output:
+x o x o x
+----------------------------
+
+Question: 8
+input: 4
+output:
+x o o x
+--------
+input: 5
+output:
+x o o o x
+---------------------------------------------------------------------------------------------------------
+2D Squares
+Write a program which reproduces the following patterns for any integer n
+---------------------------------------------------------------------------------------------------------
+
+Question: 9
+input: 3
+* * *
+* * *
+* * *
+----------------------------
+
+Question: 10
+input: 3
+0 1 2
+0 1 2
+0 1 2
+----------------------------
+
+Question: 11
+input: 3
+0 1 2
+3 4 5
+6 7 8
+
+input: 5
+0 1 2 3 4
+5 6 7 8 9
+0 1 2 3 4
+5 6 7 8 9
+----------------------------
+
+Question: 12
+input: 3
+x o x
+o x o
+x o x
+
+input: 5
+x o x o x
+o x o x o
+x o x o x
+o x o x o
+x o x o x
+----------------------------
+
+Question: 13
+input: 3
+x x x
+x o x
+x x x
+
+input: 5
+x x x x x
+x o o o x
+x o o o x
+x o o o x
+x x x x x
+----------------------------
+
+Question: 14
+input: 4
+x o o x
+o x x o
+o x x o
+x o o x
+
+input: 5
+x o o o x
+o x o x o
+o o x o o
+o x o x o
+x o o o x
+---------------------------------------------------------------------------------------------------------
+2D Rectangles
+Write a program which reproduces the following patterns for any integer n, m
+---------------------------------------------------------------------------------------------------------
+
+Question: 15
+input: 2, 3
+* * *
+* * *
+----------------------------
+
+Question: 16
+input: 2, 3
+0 1 2
+0 1 2
+----------------------------
+
+Question: 17
+input: 2, 3
+0 1 2
+3 4 5
+
+input: 3, 5
+0 1 2 3 4
+5 6 7 8 9
+0 1 2 3 4
+----------------------------
+
+Question: 18
+input: 3, 4
+x o x o
+o x o x
+x o x o
+
+input: 3, 5
+x o x o x
+o x o x o
+x o x o x
+----------------------------
+
+Question: 19
+input: 4, 3
+x x x
+x o x
+x o x
+x x x
+
+input: 6, 5
+x x x x x
+x o o o x
+x o o o x
+x o o o x
+x o o o x
+x x x x x
