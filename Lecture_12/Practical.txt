@@ -1,0 +1,18 @@
+Practical Usage of Pandas from Proteomics Data:
+
+1. Both Files are from SILAC treated samples after a MaxQuant Database Search:
+
+Our Goals:
+
+#Write Python Script that:
+  1. Use the first column upon reading into Pandas as the index (row_name)
+ 	2. Remove Contaminants + Reverse (where those columns = '+')
+ 	3. Keep Protein Counts = 1
+ 	4. Sums the missing values:
+ 			a) generates a bargraph of missing values for each file
+ 	5. Keeps only the "normalized Ratio H/L columns" 
+ 	6. removes rows with missing values
+        a) Writes out both files afterwards to a text file
+ 	7. keep only proteins that intersect in both files after all the filters
+ 	8. Perform a merge on the overlapping indexes(Protein_Names)
+  9. Generate a boxplot after a log2 transformation
