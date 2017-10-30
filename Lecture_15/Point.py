@@ -1,20 +1,18 @@
 import math
 
-
 class Point:
     print('something')
     const = 'asdasd'
-
 
     def __init__(self, x, y):
         print('creating new point')
         self.x = x
         self.y = y
 
-    # def distance(self, point2=Point(0, 0)):
-    #     diff_x = self.x - point2.x
-    #     diff_y = self.y - point2.y
-    #     return ((diff_x) ** 2 + (diff_y) ** 2) ** (1 / 2)
+    def distance(self, point2=Point(0, 0)):
+        diff_x = self.x - point2.x
+        diff_y = self.y - point2.y
+        return ((diff_x) ** 2 + (diff_y) ** 2) ** (1 / 2)
 
     def translate(self, tx, ty):
         self.x += tx
@@ -43,7 +41,6 @@ class Point:
         self.x += other.x
         self.y += other.y
         return self
-
 
     @staticmethod
     def distance_between_points(pa, pb):
