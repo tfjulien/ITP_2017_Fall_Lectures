@@ -53,7 +53,6 @@ def process(args):
         print(result)
 
 
-
 def main():
     # Create a parser:
     parser = argparse.ArgumentParser(description='Compute distance between two points in space.')
